@@ -45,7 +45,8 @@ if uploaded_file is not None:
                 label="Download Sweetviz Report",
                 data=file,
                 file_name="sweetviz_report.html",
-                mime="text/html"
+                mime="text/html",
+                on_click=st.balloons
             )
 
     except Exception as e:
